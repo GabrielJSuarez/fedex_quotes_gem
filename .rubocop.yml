@@ -1,0 +1,19 @@
+Style/Documentation:
+  Enabled: false
+
+# exclude cops that are being triggered by the payload method
+Metrics/AbcSize:
+  Exclude:
+    - 'lib/fedex_quotes/quote.rb'
+
+Metrics/CyclomaticComplexity:
+  Exclude:
+    - 'lib/fedex_quotes/quote.rb'
+
+Metrics/MethodLength:
+  Exclude:
+    - 'lib/fedex_quotes/quote.rb'
+
+Metrics/PerceivedComplexity:
+  Exclude:
+    - 'lib/fedex_quotes/quote.rb'
